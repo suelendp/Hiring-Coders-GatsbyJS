@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
@@ -15,12 +16,19 @@
   },
   "dependencies": {
     "gatsby": "^4.16.0",
+    "gatsby-plugin-manifest": "^4.16.0",
+    "gatsby-plugin-nprogress": "^4.16.0",
+    "gatsby-plugin-page-creator": "^4.16.0",
+    "gatsby-plugin-react-helmet": "^5.16.0",
     "gatsby-plugin-sass": "^5.16.0",
+    "gatsby-plugin-sitemap": "^5.16.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+    "react-helmet": "^6.1.0",
     "sass": "^1.52.3"
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "prettier": "^2.6.2"
   },
   "repository": {
