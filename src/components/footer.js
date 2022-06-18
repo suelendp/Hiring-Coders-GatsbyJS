@@ -1,9 +1,10 @@
 import React from "react";
+import * as headerStyles from '../styles/header.module.scss';
 
 const Footer = () =>{
     return(
         <footer>
-            <p>
+            <p className={headerStyles.layoutFooter}>
                 Site desenvolvido em GatsbyJS &copy; {new Date().getFullYear().toString()}{""}
             </p>
             </footer>

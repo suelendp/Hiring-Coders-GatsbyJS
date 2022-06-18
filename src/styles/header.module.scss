@@ -8,8 +8,20 @@
     background-color: #142032;
     
 }
-.body{
-    background: #ff5500;
+.layout{
+    position: relative;
+    text-align: center;   
+}
+
+.layoutText{
+    position: relative;
+    text-align: center;   
+}
+
+.layoutFooter{
+    background-color: #142032;
+    color: #fff;
+    text-align: center;
 }
 
 .hero-content {
@@ -71,7 +83,7 @@
 
     a {
         text-transform: uppercase;
-        color: #142032;
+        color: #222222;
         font-size: 17px;
         font-weight: 500;
         //opacity: 0.9;
